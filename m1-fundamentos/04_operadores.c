@@ -19,10 +19,30 @@ int main(void) {
     /* TODO: imprimir suma, resta, multiplicacion, modulo */
     /* TODO: imprimir division entera (10/3=3) y flotante ((float)a/b) */
 
+    int c = a + b;
+    int d = a - b;
+    int e = a / b;
+    float f = a/ b;
+    float g = (float)a / b;
+    int h = a % b; /*residuo*/
+    int i = a* b;
+
+    printf("suma: %d \n", c);    
+    printf("resta: %d \n", d);
+    printf("division: %d \n", e);
+    printf("entero: %.2f \n", f);
+    printf("division v2: %.3f \n", g);
+    printf("modulo: %d \n", h);
+    printf("multiplicacon: %d \n", i);
+
     /* --- Comparacion --- */
     printf("\n=== Comparacion ===\n");
     float temp = 36.5f, umbral = 35.0f;
     /* TODO: imprimir resultado (0/1) de: temp>umbral, temp==umbral, temp!=umbral, temp>=umbral */
+    printf("temp > umbral: %d \n", temp > umbral);
+    printf("temp > umbral: %d \n", temp == umbral);
+    printf("temp > umbral: %d \n", temp != umbral);
+    printf("temp > umbral: %d \n", temp >= umbral);
 
     /* --- Logicos --- */
     printf("\n=== Logicos ===\n");
